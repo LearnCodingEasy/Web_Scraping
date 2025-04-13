@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Omnes';
+  src: url('./Font/Omnes_Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Omnes', sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 85%;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  border: 0.3rem solid #8c00ff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 0.3rem solid #ffeaa7;
+  background-color: #fdcb6e;
+  color: #222;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+.text {
+  border: 0.3rem solid #7d5afd;
+  margin-top: 3rem;
+  background-color: #a29bfe;
+  color: #fff;
+  color: #222;
+  font-size: 2.5vw;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.data {
+  border: 0.3rem solid rgb(255, 0, 191);
+  margin-top: 3rem;
+  background-color: #ff7675;
+  font-size: 1.5vw;
+  color: #fff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
