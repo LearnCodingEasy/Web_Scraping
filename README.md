@@ -128,17 +128,28 @@ python manage.py runserver
 
 ```cmd
 npm create vue@latest
-web_scraping_vue
-npm install
-npm run format
-npm run build
-npm run dev
 ```
 
 ### Setup Vue
 
 ```cmd
 cd web_scraping_vue
+```
+
+```cmd
+npm install
+```
+
+```cmd
+npm run format
+```
+
+```cmd
+npm run build
+```
+
+```cmd
+npm run dev
 ```
 
 ### Install Vue Libraries
